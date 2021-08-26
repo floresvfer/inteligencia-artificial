@@ -1,8 +1,6 @@
-/*
-    * FRANCISCO HUMBERTO LEZANA RAMOS
-    * 2015037777
-    * INTELIGENCIA ARTIFICIAL
-    * USAC 2021
+    /*
+    * FERNANDO FLORES
+    * 201504385
     */
 
 
@@ -86,7 +84,7 @@ function start(inicial) {
     } else if (action_result == "RIGHT") inicial[0] = "B";
     else if (action_result == "LEFT") inicial[0] = "A";
     if (primero >= 2 && segundo >= 2 && tercero >= 2 && cuarto >= 2 && quinto >= 2 && sexto >= 2 && septimo >= 2 && octavo >= 2) {
-        alert("CICLO FINALIZADO, ESTADOS VISITADOS !!! ");
+        alert("SE HAN VISITADO TODOS LOS ESTADOS");
         return;
     }
     setTimeout(function () {
